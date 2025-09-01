@@ -7,7 +7,7 @@ char* Strcat (char*, const char* );
 int Strcmp( const char* , const char* );
 const char* Strchr( const char* , int );
 const char* Strrchr(const char*, int );
-char* strstr( const char* str, const char* substr );
+char* Strstr( const char* str, const char* substr );
 size_t Strspn(const char* dest, const char* src);
 size_t Strcspn(const char *dest, const char *src);
 char *Strpbrk(const char *dest, const char *breakset);

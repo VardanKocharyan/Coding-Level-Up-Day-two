@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-char* Strcpy(char* d , const char* s) {
-		char* dest = d;
-		
-		while (*s) {
-			*dest = *s;
-			++dest;
-			++s;
-		}
-
-		*dest = '\0';
-		
-		return d;
+char* Strcpy(char *dest, const char *src) {
+    char *ptr = dest;
+    
+    while(*src != '\0') {
+        *dest = *src;
+        ++dest;
+        ++src;
+    }
+    *dest = '\0';
+    
+    return ptr;
 }

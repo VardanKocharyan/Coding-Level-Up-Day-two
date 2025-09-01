@@ -6,5 +6,5 @@ int Strcmp( const char* lhs, const char* rhs ) {
 			++lhs;
 			++rhs;
 		}
-		return (*lhs - *rhs);
+		return (int)(*lhs - *rhs);
 }
